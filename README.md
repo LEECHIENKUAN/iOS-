@@ -1,6 +1,9 @@
 ### 清除 已經下載的 Simulator ###
-１、打開　Finder 切到 /Library/Developer/CoreSimulator/Profiles/Runtimes 
-２、刪除不需要的Device
+- 打開　Finder 切到 /Library/Developer/CoreSimulator/Profiles/Runtimes ，就會看到所有已下載的Simulator
+```shell
+  cd  /Library/Developer/CoreSimulator/Profiles/Runtimes
+```
+- 刪除不需要的Device
 
 ### 清除 已經不支援的 Simulator ###
 xcrun simctl delete unavailable
